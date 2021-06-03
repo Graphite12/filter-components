@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "model": "RTX-3090",
+    "kind": "Graphic Card",
+    "company": "Nvidia",
+    "image": "asd",
+    "spec": {}
+  },
+  {
+    "id": 2,
+    "model": "RTX-3080",
+    "kind": "Graphic Card",
+    "company": "Nvidia",
+    "image": "asd",
+    "spec": {}
+  },
+  {
+    "id": 3,
+    "model": "RTX-3070",
+    "kind": "Graphic Card",
+    "company": "Nvidia",
+    "image": "asd",
+    "spec": {}
+  },
+  {
+    "id": 4,
+    "model": "RTX-3060",
+    "kind": "Graphic Card",
+    "company": "Nvidia",
+    "image": "asd",
+    "spec": {}
+  },
+  {
+    "id": 5,
+    "model": "RX 6900XT",
+    "kind": "Graphic Card",
+    "company": "AMD",
+    "image": "asd",
+    "spec": {}
+  },
+  {
+    "id": 6,
+    "model": "RX 6800XT",
+    "kind": "Graphic Card",
+    "company": "AMD",
+    "image": "asd",
+    "spec": {}
+  },
+  {
+    "id": 7,
+    "model": "RX 6800",
+    "kind": "Graphic Card",
+    "company": "AMD",
+    "image": "asd",
+    "spec": {}
+  },
+  {
+    "id": 8,
+    "model": "RX 6700XT",
+    "kind": "Graphic Card",
+    "company": "AMD",
+    "image": "asd",
+    "spec": {}
+  },
+  {
+    "id": 9,
+    "model": "GTX-1660TI",
+    "kind": "Graphic Card",
+    "company": "Nvidia",
+    "image": "asd",
+    "spec": {}
+  },
+  {
+    "id": 10,
+    "model": "RTX-3050TI",
+    "kind": "Graphic Card",
+    "company": "Nvidia",
+    "image": "asd",
+    "spec": {}
+  }
+]

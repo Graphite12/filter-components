@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./display.css";
+import items from "./dummy.json";
 
-function App() {
+function Display() {
+  const categories = ["All", "Nvidia", "AMD"];
+  const [activeCat, setActiveCat] = useState(["All"]);
+  const [data, setData] = useState(items);
+  console.log(data);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <header>그래픽 카드 현황</header>
+      <section>
+        <article>
+          {categories.map((c) => {
+            const active = activeCat.includes(c);
+
+            return (
+              <p>
+                <button className={`button ${active && "is-primary"}`}>
+                  {c}
+                </button>
+              </p>
+            );
+          })}
+        </article>
+      </section>
+      <footer></footer>
+    </main>
   );
 }
-
-export default App;
+export default Display;
