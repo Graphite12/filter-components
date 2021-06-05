@@ -4,64 +4,84 @@
     "model": "RTX-3090",
     "kind": "Graphic Card",
     "company": "Nvidia",
-    "image": "asd",
-    "spec": {}
+    "image": "https://lh3.googleusercontent.com/nrsC9-8_xDyA4xy9V0mav5tBZkA240b9Fccg21_MfkYBtlbmaB6tN8JPYkFHPwZbKstqrH4wGj-2CxX1wHP9VyYf6Gb6V_SI7q5X4uMRW-hN5eT-l14Mpuke1iOf8rbZJc1CfLP3rcSVnRvbWZe9KTUmzSW1saOfZ-vHX8Z3Umtzktk-1dp86fiS4cNlFIIxM6i7bv3Zkiodd2KCsGFToibZ5gYY_PijgfgIqf8eFE-zbTXQpaEvgREYdfOD2ckpem724QVA4XXq7vRzp6LjVK8iIFCnCdfHkeaflPMojWrpN2dUDjUCm6-LitTFrsadalyHcDbmue_aw6hKTuwHWPIQ4l4kQpC9lRK8Hz5gL6iDH0Wp0LCoCTaUCaQhJZZE3lF2UUvGGmU9Ls0UIEdqmNEvGk8peQMFRnU266aOMT1KvvGKQMzxtllPaenvvu0mNM3p7lYSFjAhSyshf_1exy7UOQlPQgioZYRr0YVG_o7TZV6RKT-iV4TeLciNjA0AfaGjMPhfJb-nOqxFGcpxCQ0Ee4g9XioXSJDQ2Vlgsy3z31D0mnrhYdqi7r3JuESvn5k7INbehFkb7XDF4ON85-qD-HA3QiseMJc14JB3lBtMyjwV7VVwKa9pXmLIRiyxMC4ZuGK37eHTaccAjYiVc1QUopTnwDHo22pGdxpb7f2OKzwr03jCG-phOtVr94MoJiFJiGYDEbobROVm3kg1kqfr=w1260-h568-no?authuser=0",
+    "spec": {
+      "architecture": "Ampere",
+      "vram": "16GB",
+      "CUDA Core": "10240"
+    }
   },
   {
     "id": 2,
     "model": "RTX-3080",
     "kind": "Graphic Card",
     "company": "Nvidia",
-    "image": "asd",
-    "spec": {}
+    "image": "https://lh3.googleusercontent.com/11RWV1D5DUCT79_FF_kraxBx9eSULHIFZQ8Pt1fcojKRigFvVOtoNmRU4HU7jx0Rt5QzsAtYLS3AYeZJhn27CVFuLidpA9l4R5UlCPCb_ry3GFyquEUH_HSLfReX3o2u3Q6BgZWrbdaAtqmd84uaa9XEnKv8mR_3z7v6H7D7jmb8BlcOnP6AoCe6IftFe6S09Jy6BkojoSpcjGQeTB6GkuyJc49W1RslMGm5eIdrYX_P1DT7ixw66gNomM6U-AsQxT1Z1i0cLqKKQ_qFTz02nGCcr2f90b6heVtUfYZ0LE4s-WjY8QZAtDgCV8RyBtAykUpKocfOkM_N9vklDttn5algwM01-Mzm1gXhjVHjFL7kkoAN4NhmJzJ66Q05mS7-oBNJBbT4cmaIXKspQ5f1sx6E7eZMMXwCaczSym2GkXYRbkcNccOba5Splu3VDdVv1DjDHDnCuBNETFH4RP4en_ZkY5u6a9LkvPN1dV85m831bWUHw6jachzKkKON8IYPyHpQ9ww6JdIexqbYVh4Stkv9oMDY_pNJaYfS-OJv3o8znC-ZwJ2qo8SAzLSfFz_ANOAPDBcXj0bo30kNImhkwAu68QuH9gQiohJSgfVZ3E5npJPuAwMdLOaZcAk5fIOHgYLHxYq0m8qVV5FN64qT0jVOMFI8PM2lKUtgs0_eAMpaHzqlwOECH-W13eWhlldDIjvGeSk4MsK94X4gdO0NoyDg=w924-h418-no?authuser=0",
+    "spec": { "architecture": "Ampere", "vram": "10GB", "CUDA Core": "10240" }
   },
   {
     "id": 3,
     "model": "RTX-3070",
     "kind": "Graphic Card",
     "company": "Nvidia",
-    "image": "asd",
-    "spec": {}
+    "image": "https://lh3.googleusercontent.com/9_mStDeEogrwcQA9xln-9W6kXgwCn_DFItutejIbnDumtI7Gedeh2dorf-9Xf017DSjhOuzuG7ApMbPr_KyI7zA0KFHPCgN2Zm0GotBaoqqGMDucSJ6hOTlNaLqU_H8vP0L4YM9CAvxvO8leSo7VyLIv9RNQKKmmx4V2SqcjJRNYKKOXDMBI_72cJOdolxvBsJCUTWs5WchFK64RUUaWn1irSEt1-_dUlHpqv51l_3sdoVG3rNWYua3d-320NijwaK7OzXgHM8a4V_-H5EkgIoNEp7cMmsM7ThbsM9u6OmM5fU6WLkS_AjDZKVH0nRL4Mlfh3L5Maep5S9W5XW_B0ACywmo7KtGZH84UZVQhJOJmNDcwCyd1VdUIFTBe8iRZxdTVta3SzRPAj0emWRpY2VFk5rF9gPHzRSzUAkp9U0yMjk9Uwk1QNfRU3BKMDxYnQu5oKY3qFyUuXfpPFZbfHaJyMx8yaOf8_Bl1kBupbI51GSPnXb37GQyNqkdNig_EnHpzB6ivU50FWL7X8sSJN0mSRKwSr0-mfH1h-Sa_p1D4NK19bY-k2JBOUpT-epHUORVQZ0VvEG3yqxnw7RAFS4fEOzNJacN9a5wMQkQ6xgonceElHzMuq66-h2bvVjdZDbhpDtKRWF1cDmYQ12FhQ552jJyQ_o7R8C575HmAV3ZblVLZNalkGPM7Rv7ePqzCEVjEP8hTLiPfOjuYkGevEiyW=w1201-h543-no?authuser=0",
+    "spec": { "architecture": "Ampere", "vram": "10GB", "CUDA Core": "10240" }
   },
   {
     "id": 4,
-    "model": "RTX-3060",
+    "model": "RTX-3060TI",
     "kind": "Graphic Card",
     "company": "Nvidia",
-    "image": "asd",
-    "spec": {}
+    "image": "https://lh3.googleusercontent.com/SWOGzCe_2r6NpnHAKUuCnxr63kXTa24Iv0I-5fDsQ2TgY0P3u6pYgKgZoconwVfUnsxEDeVFlYR90CZXSXABJxhtpBAfrZDHtBHA6lUaNF-c3QQl2tQKi1HLl-xv4N92kKM9hBmA_zFtzbVFSBaf90v66xAPVnzMfw_aNbDch6BujXPwLiZ88mr_iKKwI0jsjWtpSZExpd_3uVJYEalkEO5mHsrQrCOPF6noWCJ6wCFWMDFbU-PoYZp8efzu6abffYgyv6UXugngdCk9epN5fv9Ets3v-uMWPN2Goa_Wptj9XQ9CPTqnFYKdRQDsJf652sE3H2NhwbETgHs6DOu3XxqxkQHAKDuhFZ8ruBaqvZQDa6DQ_FtJ2Y1dVQueuN37p0nVpLUtiznidYZ85FxMJi8DYCZW54FFiM06jL35inThhh2d3de3_GH4Ab_kkYFRJ_-qtkwE5RPyxaBfEGcnh6JfQKEbeqwGmXUNT92zfCTk66NOVjAvrGHxFhSPE2KDqkfpyz1g1m2gVK70JO6AcgCUhsY3ftkXgTVpCJIHyLspHXOAcC-ID2p2nmOLGzyjkuNCjDu_CQKqHMHcPrzEVJvjA2IA6K2ylEE0bpp1MEyBdW-inmun1y2GV-YOfEZawhq7djUnXh7QghzYRB01_bepaavAR3TGNcuWwiGVtlIBDVJkzeLQ9wWszuP3qI6DDov7_79fDWc7GwFDpdEXBv9A=w1500-h748-no?authuser=0",
+    "spec": { "architecture": "Ampere", "vram": "6GB", "CUDA Core": "10240" }
   },
   {
     "id": 5,
     "model": "RX 6900XT",
     "kind": "Graphic Card",
     "company": "AMD",
-    "image": "asd",
-    "spec": {}
+    "image": "https://lh3.googleusercontent.com/NxJqw2Nekce1LJ5kRRVxMJsG_0HZ6UR_6XWVcIDVDIdUpHlRTIBwvqVPDb3iEuVVy0aghcG2tdXfzryUrlnOM83_jWfJWDsyEh1yjDQs7M0Mh3QGcPttYTWO4C573vwAjDB9r4drO0uxk1MsvlLdU8RswDYCbPSlxXYwoFqCZcoS4WsWJIFeZyutOB6HGx8PjstKA3Yc0qCcCPkYrgOnIIRTcZlpngu20J6xL2jzZf5LZWrPCTdJ_00uGDEEqzna5DJSQmKxYV8P3gCjYL0771BoApXUArx-UPDaoqXZPz_wqD-yH7ZMKGlEANwd20sM8x2sAo0dNx2uCSavxP3RjbFOuJGiZAYz_9bMUNIlZbYruZgk0rxBT4gEZv-rJ3TGiejAzkMnHjgLHc8EqjQKYMYvcc5vsoyYWmnljWkt5yFWGmvt_3JnIZlIsKcKXvwMMDWhvFSUMwFwlnmoO3Gm2BMODGQj99HavC2F4DKQgGAiIAvF_sXTscS8CfIR5PQ9kDU964OqUXWA1bvAzB4DBKHt23qvMUo_Lh2MRm7Yk0SqiATbD1A0h8JvIltrHnw50gZeJCc047taKJl0hr2JDUQ8YcLU_SOroTR3pSF-5cnCxAzXrCn2aQABDmQeWX3WTqACsoz1t5ESOjRZZMBgOSLg0FzOVjuQ1smpgp-omRcsF5PoVWR02ERouDzAqz1TmOsgAYM-vkVDZxeGonUA81ok=w615-h346-no?authuser=0",
+    "spec": {
+      "architecture": "RDNA2",
+      "vram": "16GB",
+      "Stream Processor": "10240"
+    }
   },
   {
     "id": 6,
     "model": "RX 6800XT",
     "kind": "Graphic Card",
     "company": "AMD",
-    "image": "asd",
-    "spec": {}
+    "image": "https://lh3.googleusercontent.com/oPkAoB5_4B3wWToioZEu59Fflzh8L2qA5tn4ybQ0lSy9ChPvcy4lhWWedZPYvAfZhjhnT4s_7SYz3fLFimVhYPr4U2XNvPWLz-69hctYtNdOg0X4UPBTe4ghjP4Ej7bTEwqufBMcrHkqCxr5BRp5SXTZVs6cy8RIPq2jXRVfgqlCMqZuP5iKHYaPRf2w1ulWdtsNY_IY3TyLXN2-AC88zqC9YceK2DFtWvUMyb3oRpAmSB1t2SQTIGoZ4OqdRnZKWv798h477ht7PS-Cs5j_HmwOX17nx1ssxkSkDxS4x5eABEGubFwbS12pw2DzUbroHsbPqkhFFCHxWLxYqC7NiJo82K3zxMIpEHA33OfjFXafz1CfuKidKspgOBl-aNRH0A0_Thm4HQJQLZHPeR7TsaWWLZeO_1CsN2NhP62h_BXI5-qJgaxk-lAxjKFjwy3aq8NoW3-mL_xNivl-4GwcxLQRjXafTUzrlmrmmrTHbSVPCVGu7gwCCEVqgh8jiws-b_DfGEfwVZnBMg6MeERffJT6jiU0lzJKXC4MGuQBCICiXKGoNB-l1SpjVix4vf0HX-eQG3KJBnZJVadkHu_ffDGyn5Mn6BktdfCI0z0Vck3b56koxl59HCUSYDIctMDvoPxPaxBKSUCdvQPX6w80AXhsouhgnNMy0pXBcnItdFIk52f63qkbZnNLJQd4Ig4s96SkAz0CBVA0vmU49DICk-bk=w1260-h709-no?authuser=0",
+    "spec": {
+      "architecture": "RDNA2",
+      "vram": "16GB",
+      "Stream Processor": "10240"
+    }
   },
   {
     "id": 7,
     "model": "RX 6800",
     "kind": "Graphic Card",
     "company": "AMD",
-    "image": "asd",
-    "spec": {}
+    "image": "https://lh3.googleusercontent.com/e-5k1akO5m91BY6RHyFNpH3uZVi5-ATsgiicHiFXOZvikG4b6CmlWQF66slas9YK6XxR-hSDvziP56T0Rkoy-GZmx2vUUayfrq3koVCSnRKrXSesQC4z-3oiOFl-zF24emNLXsj0RQPMKfBZcKVH8CTCL5alCZ0PewRndhdtFdWFIchqAVGO_MOsOjIfnsnWUaxAL4-vJWcNFkACSi_LKK4P9mMdXjFn4cJC3WHBinu6mGF6yjFFsmN1VycSFsFK-y2GGQ6khzYpLiNS108L_opUfmv0q6UyV5u8s9AZ-YGLe-Ywr54hOXfjCW3BH6Zs19RmF5wYWrzPcaLCeD54mfFZ2x2xYh2wmKyro1rr68nya6fNjT_6dnVVaB7WTBb1QW25DA7uwrnLZraurBSRrEIBSjGIRv6bzLGav7m0r_B5mSTggGUj-iT5U5Gzn_2-PV2BVmoaqgujy39JNrdf8P0foCcZeHj4caqt_vlkWQiOxq__HJOnByhEKPfmYSr8UCC142kLdadJ0ZylrpTIIiZyeTj8tHfRGOW0yl8l0rSWo_v0eB9XfNxKFHmdRShIAoorN10vFSBEDbUYdp9yhstToLY4OAoWKMKHWSq6fiAAg749LDZKZl4sdggl3AoHmpdCt5y0hSy1cEdizx4hmqhVzOGhMe_xwe6yceID6UN5IKTsZiGOrVwRWo8Z34-ZuXL8--DeGKCDo9SRbnSv2kz5=w768-h368-no?authuser=0",
+    "spec": {
+      "architecture": "RDNA2",
+      "vram": "16GB",
+      "Stream Processor": "10240"
+    }
   },
   {
     "id": 8,
     "model": "RX 6700XT",
     "kind": "Graphic Card",
     "company": "AMD",
-    "image": "asd",
-    "spec": {}
+    "image": "https://lh3.googleusercontent.com/yI4VHfCmQoSGR5T7oA81ELYVx09dcnxu4kUBIhscn6KyBsqu3AldTA84sucXjGKy85ZmgiHIqgLytDPQdIrMnnjZ050ZcNQN_53srpYbAS3xy132JEj8Td5huztycRcFJsUAYHrsJGVtxUWQKEQLXx7ucNlFUiCLU2WvUzOUVrFtAFf3qGxHdUtOPlXtfUr_H5fG0nKrvPpvhpwr-xj2AasRmN8HkLiQvmEm35daZ45pW5TCq8jtKinA4CGDEhzp3gpG07WRZJYZ7lIEJ6rF7ovNSiZdLli1WSZEbATOUJpVohpj3JNkFKbrKNS_bF_Rhpv3MEQ3Q5dHKx3aJEfUb_qAeFksUeCmnmIrNaQzoO8PE2Af8HFtsWq-s9CVf1424Z8hJJvuhNHNC-qkPSwZYLVLi9MhdQKE736ujsBDHc84xyx2L04Vfi7baN37C3MiDxs5XfKPlPcw3zGJuuPbQMx9IKUjb0a9G0yBeGJlcKlrOM-r1OcPojK2J9VtNV0d9hLn2ZtUpl_6l1rz6JovPS6HhlHn0nwM_--qKJwTvs6IbKh6va0QQoBSNGi8m6kGTcIYeOJYk3vd9zooeWfRjCCpAsbS4sHA7MM1r3eimyNO5vVKjYDAcj_zKgNjrZlD0gGOr4v7EZEZxOXkEnxjzYWubioWliL1hZfN3PWxmcad2ooXXwqLfYvoVTs_gCbDgKqhvdtpaWKw9afNU6mw9qXY=w1200-h630-no?authuser=0",
+    "spec": {
+      "architecture": "RDNA2",
+      "vram": "16GB",
+      "Stream Processor": "10240"
+    }
   },
   {
     "id": 9,
@@ -69,7 +89,7 @@
     "kind": "Graphic Card",
     "company": "Nvidia",
     "image": "asd",
-    "spec": {}
+    "spec": { "architecture": "RDNA2", "vram": "16GB", "CUDA Core": "10240" }
   },
   {
     "id": 10,
@@ -77,6 +97,6 @@
     "kind": "Graphic Card",
     "company": "Nvidia",
     "image": "asd",
-    "spec": {}
+    "spec": { "architecture": "RDNA2", "vram": "16GB", "CUDA Core": "10240" }
   }
 ]

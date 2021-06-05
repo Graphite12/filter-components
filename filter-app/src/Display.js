@@ -1,10 +1,13 @@
 import { useState } from "react";
 import Card from "./components/Card";
 import "./display.css";
+
 import items from "./dummy.json";
 
 export default function Display() {
   const categories = ["All", ...new Set(items.map((item) => item.company))];
+
+  console.log(categories);
   const [activeCat, setActiveCat] = useState(categories);
   const [data, setData] = useState(items);
 
@@ -19,24 +22,27 @@ export default function Display() {
   };
 
   return (
-    <>
-      <header>그래픽 카드 정보</header>
+    <main>
+      <header>
+        <h1>그래픽 카드</h1>
+      </header>
       <section>
-        <article>
+        <article className="categories">
           {activeCat.map((cate) => {
             return (
-              <p>
-                <button className="btn" onClick={() => activeCategory(cate)}>
-                  {cate}
-                </button>
-              </p>
+              <button
+                className="cat_btn hover"
+                onClick={() => activeCategory(cate)}
+              >
+                {cate}
+              </button>
             );
           })}
         </article>
-        <article>
+        <article className="card_list">
           {data.map((g, i) => {
             return (
-              <div>
+              <div className="card_container">
                 <Card card={g} key={i} />
               </div>
             );
@@ -44,7 +50,7 @@ export default function Display() {
         </article>
       </section>
       <footer></footer>
-    </>
+    </main>
   );
 }
 
