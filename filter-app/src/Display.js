@@ -1,25 +1,33 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Card from "./components/Card";
+import Catbtn from "./components/Catbtn";
 import "./display.css";
 
 import items from "./dummy.json";
 
 export default function Display() {
-  const categories = ["All", ...new Set(items.map((item) => item.company))];
+  // const categories = ["All", ...new Set(items.map((item) => item.company))];
 
-  console.log(categories);
-  const [activeCat, setActiveCat] = useState(categories);
+  // console.log(categories);
+  // const [activeCat, setActiveCat] = useState(categories);
+  const [activeCat, setActiveCat] = useState("All");
   const [data, setData] = useState(items);
 
-  const activeCategory = (btn) => {
-    if (btn === "All") {
-      setData(items);
-      return;
-    }
+  // const activeCategory = (btn) => {
+  //   if (btn === "All") {
+  //     setData(items);
+  //     return;
+  //   }
 
-    const filteredData = items.filter((item) => item.company === btn);
-    setData(filteredData);
-  };
+  //   const filteredData = items.filter((item) => item.company === btn);
+  //   setData(filteredData);
+  // };
+
+  useEffect(() => {
+    activeCat === "All"
+      ? setData(items)
+      : setData(items.filter((vga) => vga.company === activeCat));
+  }, [activeCat]);
 
   return (
     <main>
@@ -28,16 +36,27 @@ export default function Display() {
       </header>
       <section>
         <article className="categories">
-          {activeCat.map((cate) => {
-            return (
-              <button
-                className="cat_btn hover"
-                onClick={() => activeCategory(cate)}
-              >
-                {cate}
-              </button>
-            );
-          })}
+          {/* {activeCat.map((cate) => {
+            return <button className="cat_btn hover">{cate}</button>;
+          })} */}
+          {/* {activeCat.map((cat) => {
+            <Card name={cat} />;
+          })} */}
+          <Catbtn
+            name="All"
+            catActive={activeCat === "All" ? true : false}
+            handleSetCat={setActiveCat}
+          />
+          <Catbtn
+            name="Nvidia"
+            catActive={activeCat === "Nvidia" ? true : false}
+            handleSetCat={setActiveCat}
+          />
+          <Catbtn
+            name="AMD"
+            catActive={activeCat === "AMD" ? true : false}
+            handleSetCat={setActiveCat}
+          />
         </article>
         <article className="card_list">
           {data.map((g, i) => {
