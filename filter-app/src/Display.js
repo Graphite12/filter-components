@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Card from "./components/Card";
 import Catbtn from "./components/Catbtn";
+import SearchBar from "./components/SearchBar";
 import "./display.css";
 
 import items from "./dummy.json";
@@ -9,9 +10,7 @@ export default function Display() {
   // const categories = ["All", ...new Set(items.map((item) => item.company))];
 
   // console.log(categories);
-  // const [activeCat, setActiveCat] = useState(categories);
-  const [activeCat, setActiveCat] = useState("All");
-  const [data, setData] = useState(items);
+  // const [activeCat, setActiveCat] = useState(categories);'
 
   // const activeCategory = (btn) => {
   //   if (btn === "All") {
@@ -23,17 +22,41 @@ export default function Display() {
   //   setData(filteredData);
   // };
 
+  const [activeCat, setActiveCat] = useState("All");
+  const [data, setData] = useState([]);
+
+  const [search, setSearch] = useState("");
+  const [filterVga, setFilterVga] = useState([]);
+
   useEffect(() => {
     activeCat === "All"
       ? setData(items)
       : setData(items.filter((vga) => vga.company === activeCat));
   }, [activeCat]);
 
+  useEffect(() => {
+    setFilterVga(
+      data.filter((gpu) =>
+        gpu.model.toLowerCase().includes(search.toLowerCase())
+      )
+    );
+  }, [search, data]);
+
+  const renderList = filterVga.map((g, i) => {
+    return (
+      <div className="card_container">
+        <Card card={g} key={i} />
+      </div>
+    );
+  });
+
+  console.log(data);
   return (
     <main>
       <header>
         <h1>그래픽 카드</h1>
       </header>
+      <SearchBar onChange={(e) => setSearch(e.target.value)} />
       <section>
         <article className="categories">
           {/* {activeCat.map((cate) => {
@@ -59,13 +82,7 @@ export default function Display() {
           />
         </article>
         <article className="card_list">
-          {data.map((g, i) => {
-            return (
-              <div className="card_container">
-                <Card card={g} key={i} />
-              </div>
-            );
-          })}
+          {renderList.length > 0 ? renderList : "제품이 존재하지 않습니다."}
         </article>
       </section>
       <footer></footer>
