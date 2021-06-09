@@ -23,7 +23,7 @@ export default function Display() {
   // };
 
   const [activeCat, setActiveCat] = useState("All");
-  const [data, setData] = useState([]);
+  const [data, setData] = useState(items);
 
   const [search, setSearch] = useState("");
   const [filterVga, setFilterVga] = useState([]);
@@ -50,13 +50,14 @@ export default function Display() {
     );
   });
 
-  console.log(data);
+  console.log(search);
   return (
     <main>
       <header>
         <h1>그래픽 카드</h1>
       </header>
       <SearchBar onChange={(e) => setSearch(e.target.value)} />
+
       <section>
         <article className="categories">
           {/* {activeCat.map((cate) => {
@@ -82,7 +83,11 @@ export default function Display() {
           />
         </article>
         <article className="card_list">
-          {renderList.length > 0 ? renderList : "제품이 존재하지 않습니다."}
+          {renderList.length > 0 ? (
+            renderList
+          ) : (
+            <p>제품이 존재하지 않습니다.</p>
+          )}
         </article>
       </section>
       <footer></footer>
